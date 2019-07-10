@@ -1,0 +1,16 @@
+{
+    "name": "slim_base",
+    "description": "Projeto de base para o Slim PHP",
+    "require": {
+        "slim/slim": "^3.12",
+        "twig/twig": "^2.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        },
+        "files": [
+            "app/functions/helpers.php"
+        ]
+    }
+}
